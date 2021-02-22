@@ -2,14 +2,14 @@ function isPalindrome(data) {
    let counter = 0;
    let letters = data.split('');
    for (let i = 0; i < letters.length; i++) {
-      let a = letters[i].toString();
-      for (let n = letters.length - 1; n >= 0; n--) {
-         let b = letters[n].toString();
-         if (a === b) {
+      let first = letters[i]
+      for (let second = i + 1; second < letters.length;second++)
+      
+         if (first === letters[second]) {
             counter++;
+            console.log('счетчик= ' + counter + ' first= ' + first + ' sec= ' + letters[second])            
          } 
       }
-   }
-   console.log((counter - letters.length)/2)
+   console.log(letters)
 } 
-isPalindrome('wwwwqeqdq')
+isPalindrome('qweqwqw')
