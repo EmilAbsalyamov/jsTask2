@@ -10,8 +10,10 @@ function isPalindrome(data) {
             console.log('счетчик= ' + counter + ' first= ' + first + ' sec= ' + letters[second])
          }
       }
+      let arSum = letters.reduce((a, b) => ((parseInt(a) + parseInt(b))));
+      console.log(arSum)
    }
    
    console.log(letters)
 } 
-isPalindrome('qwqwqw')
+isPalindrome('124')
