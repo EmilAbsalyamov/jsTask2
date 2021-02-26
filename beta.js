@@ -16,4 +16,4 @@ function isPalindrome(data) {
    
    console.log(letters)
 } 
-isPalindrome('124')
+isPalindrome('1248787')
