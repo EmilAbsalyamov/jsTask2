@@ -1,1 +1,1 @@
-console.log([1, 4, 3, 0, 4, 5, 4].filter(element => !(element % 2)).reduceRight((accumulator, element) => accumulator + Math.sqrt(element), 0));
+console.log([1, 4, 3, 0, 4, 5, 4,7,9,12].filter(element => !(element % 2)).reduceRight((accumulator, element) => accumulator + Math.sqrt(element), 0));
